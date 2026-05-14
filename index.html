@@ -200,9 +200,12 @@ section + section { border-top: 1px solid var(--hairline); }
 }
 .body--lg { font-size: clamp(16px, 1.1vw, 18px); max-width: 720px; }
 .tag {
-  font-family: var(--mono); font-size: 11.5px;
-  letter-spacing: 0.2em; text-transform: uppercase;
-  color: var(--concrete-dark);
+  font-family: var(--sans-he);
+  font-size: 14.5px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: none;
+  color: var(--ink-soft);
 }
 .vermilion { color: var(--vermilion); }
 .serif-en  { font-family: var(--serif-en); font-style: italic; font-weight: 300; }
@@ -245,7 +248,7 @@ section + section { border-top: 1px solid var(--hairline); }
 }
 .cover__meta-item { display: flex; flex-direction: column; gap: 6px; }
 .cover__meta-item strong {
-  font-family: var(--sans-he); font-weight: 600; font-size: 13.5px;
+  font-family: var(--sans-he); font-weight: 700; font-size: 15.5px;
   color: var(--ink);
 }
 .cover__title { margin-top: 4vh; }
@@ -256,8 +259,8 @@ section + section { border-top: 1px solid var(--hairline); }
   border-top: 1px solid var(--hairline-md);
 }
 .cover__footer-col { display: flex; flex-direction: column; gap: 4px; }
-.cover__footer-col .value { font-family: var(--sans-he); font-size: 14px; font-weight: 500; color: var(--ink); }
-.cover__footer-col .sub { font-family: var(--sans-he); font-size: 13px; color: var(--concrete-dark); }
+.cover__footer-col .value { font-family: var(--sans-he); font-size: 16px; font-weight: 600; color: var(--ink); }
+.cover__footer-col .sub { font-family: var(--sans-he); font-size: 14px; color: var(--concrete-dark); }
 
 /* ─────────────────────────────────────────────────────────────
    01 · NUMBERS
@@ -291,7 +294,7 @@ section + section { border-top: 1px solid var(--hairline); }
   display: inline-block;
 }
 .number-cell .desc {
-  font-family: var(--sans-he); font-size: 14px; color: var(--ink-soft);
+  font-family: var(--sans-he); font-size: 15.5px; color: var(--ink-soft);
   line-height: 1.6; max-width: 360px;
   margin-top: 12px;
 }
@@ -347,10 +350,10 @@ section + section { border-top: 1px solid var(--hairline); }
   fill: var(--vermilion);
 }
 .corridor-map .label--region {
-  font-size: 10px;
-  font-family: var(--mono);
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
+  font-size: 11.5px;
+  font-family: var(--sans-he);
+  font-weight: 600;
+  letter-spacing: 0.18em;
   fill: var(--concrete-dark);
 }
 .corridor-map .label--g2g {
@@ -369,8 +372,11 @@ section + section { border-top: 1px solid var(--hairline); }
   border-top: 1px solid var(--hairline-md);
 }
 .corridor-key__direction {
-  font-family: var(--mono); font-size: 10px;
-  letter-spacing: 0.22em; text-transform: uppercase;
+  font-family: var(--sans-he);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: none;
   color: var(--vermilion);
 }
 .corridor-key__list {
@@ -396,9 +402,11 @@ section + section { border-top: 1px solid var(--hairline); }
 }
 .clients__label {
   text-align: center;
-  font-family: var(--mono); font-size: 10.5px;
-  letter-spacing: 0.22em; text-transform: uppercase;
-  color: var(--concrete-dark);
+  font-family: var(--sans-he);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
   margin-bottom: 36px;
 }
 .marquee {
@@ -451,9 +459,12 @@ section + section { border-top: 1px solid var(--hairline); }
 .crisis-stat__text { font-family: var(--sans-he); font-size: 15.5px; line-height: 1.55; color: var(--ink-soft); }
 .crisis-stat__text strong { color: var(--ink); font-weight: 600; display: block; margin-bottom: 4px; font-size: 16.5px; }
 .crisis-stat__src {
-  font-family: var(--mono); font-size: 10px;
-  letter-spacing: 0.15em; text-transform: uppercase;
-  color: var(--concrete);
+  font-family: var(--sans-he);
+  font-size: 12.5px;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--concrete-dark);
   margin-top: 8px;
 }
 .quote-panel {
@@ -521,9 +532,12 @@ section + section { border-top: 1px solid var(--hairline); }
   border: 2px solid var(--concrete);
 }
 .tl-row__when {
-  font-family: var(--mono); font-size: 12px;
-  letter-spacing: 0.15em; text-transform: uppercase;
-  color: var(--concrete-dark); font-weight: 600;
+  font-family: var(--sans-he);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: none;
+  color: var(--concrete-dark);
+  font-weight: 600;
 }
 .tl-row.is-now .tl-row__when { color: var(--vermilion); }
 .tl-row__what {
@@ -652,9 +666,9 @@ section + section { border-top: 1px solid var(--hairline); }
   color: var(--stone-bright);
 }
 .training-card .body {
-  font-family: var(--sans-he); font-size: 14.5px;
-  line-height: 1.6;
-  color: rgba(245, 240, 226, 0.7);
+  font-family: var(--sans-he); font-size: 15.5px;
+  line-height: 1.65;
+  color: rgba(245, 240, 226, 0.85);
   max-width: none;
 }
 
@@ -690,7 +704,7 @@ section + section { border-top: 1px solid var(--hairline); }
   color: var(--ink); margin-bottom: 8px;
 }
 .ops-card .desc {
-  font-family: var(--sans-he); font-size: 14.5px;
+  font-family: var(--sans-he); font-size: 15.5px;
   line-height: 1.6; color: var(--ink-soft);
 }
 
@@ -712,8 +726,11 @@ section + section { border-top: 1px solid var(--hairline); }
 .duo-col--you { border: 2px solid var(--ink); }
 .duo-col--us { border: 2px solid var(--vermilion); background: var(--ink); color: var(--stone-bright); }
 .duo-col .role {
-  font-family: var(--mono); font-size: 10.5px;
-  letter-spacing: 0.22em; text-transform: uppercase;
+  font-family: var(--sans-he);
+  font-size: 13.5px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: none;
   color: var(--concrete-dark);
 }
 .duo-col--us .role { color: rgba(245, 240, 226, 0.6); }
@@ -730,8 +747,9 @@ section + section { border-top: 1px solid var(--hairline); }
 }
 .duo-col--us .does { color: rgba(245, 240, 226, 0.85); }
 .duo-col .list {
-  list-style: none; display: flex; flex-direction: column; gap: 4px;
-  font-family: var(--sans-he); font-size: 14.5px;
+  list-style: none; display: flex; flex-direction: column; gap: 6px;
+  font-family: var(--sans-he); font-size: 15.5px;
+  line-height: 1.5;
   color: var(--ink-soft);
 }
 .duo-col--us .list { color: rgba(245, 240, 226, 0.78); }
@@ -772,8 +790,11 @@ section + section { border-top: 1px solid var(--hairline); }
 }
 .contact { display: flex; flex-direction: column; gap: 14px; }
 .contact__role {
-  font-family: var(--mono); font-size: 10.5px;
-  letter-spacing: 0.22em; text-transform: uppercase;
+  font-family: var(--sans-he);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: none;
   color: var(--vermilion);
 }
 .contact__name {
@@ -787,11 +808,17 @@ section + section { border-top: 1px solid var(--hairline); }
   color: rgba(245, 240, 226, 0.7);
 }
 .contact__lines {
-  font-family: var(--mono); font-size: 13.5px; line-height: 2;
+  font-family: var(--sans-he); font-size: 15.5px; line-height: 2;
   color: var(--stone-bright);
   margin-top: 12px;
 }
-.contact__lines span { color: rgba(245, 240, 226, 0.5); display: inline-block; min-width: 70px; }
+.contact__lines span {
+  color: rgba(245, 240, 226, 0.55);
+  display: inline-block;
+  min-width: 70px;
+  font-size: 13.5px;
+  font-weight: 500;
+}
 .colophon {
   margin-top: 80px; padding-top: 32px;
   border-top: 1px solid rgba(245, 240, 226, 0.18);
@@ -1064,8 +1091,8 @@ section + section { border-top: 1px solid var(--hairline); }
     </div>
     <div class="right">
       <p class="body body--lg reveal" data-d="3">
-        ארבעה סבבי נחיתה מסין רק בחודשיים האחרונים: <strong>26.1, 3.2, 5.2 ו-10.2.2026</strong>.
-        סבב מולדובה: ספטמבר 2025. אוזבקיסטן בפיילוט פעיל.
+        אלפי עובדים נחתו ב-24 החודשים האחרונים — מכל מדינות המקור,
+        בכל הענפים. רצף תפעולי, בלי הפסקות.
       </p>
       <p class="body body--lg reveal" data-d="4" style="margin-top: 24px;">
         כל סבב מנוהל ב-ATLAS, ה-CRM הפנימי שלנו — מעקב מסמכים,
@@ -1080,16 +1107,26 @@ section + section { border-top: 1px solid var(--hairline); }
       <div class="marquee__group">
         <span>מהדרין</span><span class="marquee__dot"></span>
         <span>פריאור</span><span class="marquee__dot"></span>
+        <span>בסט</span><span class="marquee__dot"></span>
+        <span>בראשית</span><span class="marquee__dot"></span>
+        <span>יקבי רמת הגולן</span><span class="marquee__dot"></span>
+        <span>עוף טוב</span><span class="marquee__dot"></span>
+        <span>קיבוץ מירב</span><span class="marquee__dot"></span>
+        <span>קיבוץ אלרום</span><span class="marquee__dot"></span>
         <span>א.כ רימונים</span><span class="marquee__dot"></span>
         <span>רמט</span><span class="marquee__dot"></span>
-        <span>קיבוצים שותפים</span><span class="marquee__dot"></span>
       </div>
       <div class="marquee__group" aria-hidden="true">
         <span>מהדרין</span><span class="marquee__dot"></span>
         <span>פריאור</span><span class="marquee__dot"></span>
+        <span>בסט</span><span class="marquee__dot"></span>
+        <span>בראשית</span><span class="marquee__dot"></span>
+        <span>יקבי רמת הגולן</span><span class="marquee__dot"></span>
+        <span>עוף טוב</span><span class="marquee__dot"></span>
+        <span>קיבוץ מירב</span><span class="marquee__dot"></span>
+        <span>קיבוץ אלרום</span><span class="marquee__dot"></span>
         <span>א.כ רימונים</span><span class="marquee__dot"></span>
         <span>רמט</span><span class="marquee__dot"></span>
-        <span>קיבוצים שותפים</span><span class="marquee__dot"></span>
       </div>
     </div>
   </div>
@@ -1223,8 +1260,8 @@ section + section { border-top: 1px solid var(--hairline); }
   </div>
 
   <h2 class="display reveal" data-d="1">
-    מהמדינה<br>
-    השולחת לתלוש<br>
+    ממדינת<br>
+    המוצא לתלוש<br>
     המשכורת.
   </h2>
 
@@ -1281,12 +1318,13 @@ section + section { border-top: 1px solid var(--hairline); }
       <div class="offer-row__no">04</div>
       <div>
         <div class="offer-row__title">תפעול 360°</div>
-        <div class="offer-row__sub">מגורים, ביטוח, שכר, ציות</div>
+        <div class="offer-row__sub">מגורים, ביטוח, שכר, רכזי שטח, ציות</div>
       </div>
       <div class="offer-row__body">
-        מגורים תואמי תקנות, ביטוח רפואי ותאונות עבודה, ניהול שכר
-        ופיקדון 16%, חידוש ויזות, החזרה לארץ המוצא. <strong>אצלכם —
-        רק תפוקה.</strong>
+        מגורים תואמי תקנות, ביטוח רפואי ותאונות עבודה, ניהול שכר ופיקדון,
+        חידוש ויזות, החזרה לארץ המוצא. <strong>רכזי שטח דוברי שפת העובדים</strong>
+        בכל אזור — טיפול שוטף בבעיות משמעת, חיכוכים, ומסכסכים לפני שהם מגיעים
+        ללקוח. אצלכם — רק תפוקה.
       </div>
     </div>
 
@@ -1319,11 +1357,11 @@ section + section { border-top: 1px solid var(--hairline); }
 
   <div class="training-grid">
     <div class="training-card reveal" data-d="3">
-      <div class="num">20</div>
+      <div class="num">30</div>
       <div class="head">שנות הכשרה</div>
       <div class="body">
-        ניסיון מצטבר בצבא, ניהול ציי רכב כבד, לוגיסטיקה והכשרת נהגים —
-        תחומי הליבה של הצוות שמרכיב את מערך ההדרכה.
+        ניסיון מצטבר של ראש מערך ההדרכה בהכשרת נהגים — צבא, ציי רכב כבד,
+        לוגיסטיקה ובתי ספר לנהיגה. תחומי הליבה של הצוות שמרכיב את מערך ההדרכה.
       </div>
     </div>
     <div class="training-card reveal" data-d="4">
@@ -1381,8 +1419,8 @@ section + section { border-top: 1px solid var(--hairline); }
     <div class="ops-card reveal" data-d="4">
       <div class="ico"></div>
       <div>
-        <div class="ttl">שכר ופיקדון 16%</div>
-        <div class="desc">תלוש חודשי, הפקדה לקרן הפיקדון, ניכויים בתוך התקרות, החזר ביציאה.</div>
+        <div class="ttl">ניהול שכר</div>
+        <div class="desc">תלוש חודשי, ניכויים בתוך התקרות, התחשבנות שעות נוספות, גמר חשבון.</div>
       </div>
     </div>
     <div class="ops-card reveal" data-d="4">
